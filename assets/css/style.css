@@ -47,7 +47,6 @@ header nav ul li a {
     border-bottom: lightskyblue solid;
     margin: 0 5px;
     padding: 0 20px;
-    font-weight: lighter;
 }
 /* Header/Nav Styling End */
 
@@ -72,24 +71,50 @@ header nav ul li a {
 
 /* Section universal styling */
 section {
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-betweenf;
     margin-right: 40px;
 }
 
 .sect-title {
-    padding-right: 10px;
-    padding-left: 100px;
+    width: 180px;
+    padding-right: 30px;
+    padding-left: 80px;
+    border-right: limegreen solid 5px;
 }
 /* Section universal styling end */
 
 /* About me content styling */
-.intro {
-    padding: 10px;
-}
-
 .intro p {
     padding-left: 20px;
-    border-left: limegreen solid 5px;
-
 }
+/* About me content styling end */
+
+/* My Work styling */
+.mywork div {
+    padding-left: 20px;
+}
+/* My Work styling end */
+
+/* Contact me Styling */
+.contactme {
+    align-items: center;
+    justify-content: flex-start;
+}
+.contactme a {
+    color: black;
+    text-decoration: none;
+}
+.contactme ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.contactme ul li a {
+    font-weight: bolder;
+    margin: 0 40px;
+    border-bottom: solid;
+}
+/* Contact me Styling end */
