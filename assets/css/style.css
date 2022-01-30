@@ -10,6 +10,9 @@ body {
     font-family:  Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 /* Header/Nav Styling Start */
 
 header {
@@ -23,10 +26,6 @@ h1 {
  background-color: rgb(158, 243, 179);
  padding: 5px 5px 5px 50px;
 
-}
-
-header a {
-    text-decoration: none;
 }
 
 header nav {
@@ -92,8 +91,76 @@ section {
 /* About me content styling end */
 
 /* My Work styling */
-.mywork div {
-    padding-left: 20px;
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 1;
+}
+
+.content article {
+    border: darkseagreen solid 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.content article img {
+    opacity: 0;
+    height: 200px;
+    width: 400px;
+}
+
+.content article img:hover{
+    opacity: .4;
+}
+
+.content article .initialwork img {
+    width: 855px;
+    height: 100%;
+    flex-grow: 4;
+}
+
+.work-title {
+    margin: 0;
+    width: max-content;
+    background-color: darkseagreen;
+    height: max-content;
+    position: absolute;
+    margin-bottom: 8px;
+}
+
+.mywork img {
+    width: 100%;
+    height: 100%;
+}
+
+/* inserting images into article sections (found it was easier to style how I wanted this way) */
+
+.sreport {
+    background-image: url("../images/sreport.jpg");
+    background-size: cover;
+}
+
+.LEDwall{
+    background-image: url("../images/LEDwall.jpg");
+    background-size: cover;
+}
+
+.calculator {
+    background-image: url("../images/Calc.jpg");
+    background-size: cover;
+}
+
+.pastelp {
+    background-image: url("../images/Pastel.jpg");
+    background-size: cover;
+}
+
+.rbuddy {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
 }
 /* My Work styling end */
 
@@ -104,7 +171,6 @@ section {
 }
 .contactme a {
     color: black;
-    text-decoration: none;
 }
 .contactme ul {
     display: flex;
