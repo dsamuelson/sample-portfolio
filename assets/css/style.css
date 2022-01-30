@@ -10,6 +10,8 @@ body {
     font-family:  Helvetica, Arial, sans-serif;
 }
 
+/* Header/Nav Styling Start */
+
 header {
     background-color: rgb(46, 46, 46);
     display: flex;
@@ -40,9 +42,30 @@ header nav ul {
 }
 
 header nav ul li a {
+    font-weight: bold;
     color: lightskyblue;
     border-bottom: lightskyblue solid;
     margin: 0 5px;
     padding: 0 20px;
     font-weight: lighter;
 }
+/* Header/Nav Styling End */
+
+/* Banner styling and positioning*/
+.banner {
+    display: flex;
+    background-image: url("../images/polygonal-banner.jpg");
+    height: 200px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.banner h2 {
+    background-color: lightsteelblue;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+}
+/* Banner Styling End */
