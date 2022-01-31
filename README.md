@@ -16,3 +16,9 @@ You will be directed to a page that explains the work is not finished but are pl
 ## Contact me section information
 
 I do not have a linked twitter or spotify account and email and phone are fake (used just to satisfy the mock-up)
+
+## mobile responsiveness
+
+This site will change size depending on the browser it's in
+
+![screenshot of mobile view (Iphone 12pro)](./assets/images/mobile-view.png)
