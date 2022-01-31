@@ -1,0 +1,29 @@
+.informational {
+    display: flex;
+    flex-wrap: wrap;
+    color: darkred;
+    justify-content: center;
+}
+
+.informational h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 10px 0;
+    border-bottom: darksalmon 5px solid;
+}
+
+.informational img {
+    height: 400px;
+    max-width: 100%;
+}
+
+.informational h3 {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: darksalmon 2px solid;
+}
