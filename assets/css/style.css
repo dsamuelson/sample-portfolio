@@ -70,15 +70,15 @@ header nav ul li a {
 
 /* Section universal styling */
 section {
-    padding: 10px;
     display: flex;
+    padding: 10px;
     justify-content: space-betweenf;
     margin-right: 40px;
 }
 
 .sect-title {
     width: 180px;
-    padding-right: 30px;
+    padding-right: 35px;
     padding-left: 80px;
     border-right: limegreen solid 5px;
 }
@@ -91,35 +91,43 @@ section {
 /* About me content styling end */
 
 /* My Work styling */
+.Work-Sect{
+    display: flex;
+    justify-content: space-around;
+}
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex: 1 1 1;
+    margin-left: 10px;
 }
 
 .content article {
     border: darkseagreen solid 5px;
     display: flex;
     align-items: flex-end;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 10px;
+    width: 45%;
+    height: 200px;
 }
 
-.content article img {
+.content article a {
+    height: 100%;
+    width: 100%;
+}
+
+.content article a img {
+    width: 100%;
+}
+
+article img {
     opacity: 0;
-    height: 200px;
-    width: 400px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .content article img:hover{
     opacity: .4;
-}
-
-.content article .initialwork img {
-    width: 855px;
-    height: 100%;
-    flex-grow: 4;
 }
 
 .work-title {
@@ -131,16 +139,19 @@ section {
     margin-bottom: 8px;
 }
 
-.mywork img {
-    width: 100%;
-    height: 100%;
-}
-
 /* inserting images into article sections (found it was easier to style how I wanted this way) */
 
 .sreport {
     background-image: url("../images/sreport.jpg");
     background-size: cover;
+    min-width: 100%;
+    margin-left: 10px;
+    min-height: 500px;
+}
+
+.sreport img {
+    height: 100%;
+    width: 100%;
 }
 
 .LEDwall{
