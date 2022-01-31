@@ -195,3 +195,18 @@ article img {
     border-bottom: solid;
 }
 /* Contact me Styling end */
+
+/* footer styling */
+footer {
+    background-color: darkturquoise;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+/* footer styling end */
