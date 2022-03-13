@@ -151,15 +151,15 @@ article img {
 
 /* inserting images into article sections (found it was easier to style how I wanted this way) */
 
-.sreport {
-    background-image: url("../images/sreport.jpg");
+.pscape {
+    background-image: url("../images/croppedrockies.png");
     background-size: cover;
     min-width: 100%;
     margin-left: 10px;
     min-height: 500px;
 }
 
-.sreport img {
+.pscape img {
     height: 100%;
     width: 100%;
 }
